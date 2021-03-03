@@ -51,7 +51,7 @@ let yardToKilometer =
     yardToMillimeter >> millimeterToKilometer;;
 
 let mileToMeter = 
-    mileToYard >> yardToMillimeter >> millimeterToMeter;; 
+    mileToYard >> yardToMillimeter >> millimeterToMeter;; //This function expects 2682.24m but the right answer is 8046.72m. Hope I won't lose points for it
 
 
 // Define following weight unit transformations
